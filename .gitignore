@@ -92,4 +92,11 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+
+# next.js build output
+.next
+generated
 # End of https://www.gitignore.io/api/node
+
+#prisma
+prisma.yml
