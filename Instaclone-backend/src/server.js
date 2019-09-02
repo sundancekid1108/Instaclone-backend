@@ -2,8 +2,6 @@ import { GraphQLServer } from "graphql-yoga";
 import logger from "morgan";
 import schema from "./schema";
 import dotenv from "dotenv";
-import path from "path";
-import passport from "passport";
 import "./passport";
 import { authenticateJwt } from "./passport";
 dotenv.config();
