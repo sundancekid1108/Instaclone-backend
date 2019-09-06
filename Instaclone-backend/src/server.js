@@ -4,6 +4,7 @@ import schema from "./schema";
 import dotenv from "dotenv";
 import "./passport";
 import { authenticateJwt } from "./passport";
+import { isAuthenticated } from './middlewares';
 dotenv.config();
 
 
@@ -11,7 +12,7 @@ const PORT = process.env.PORT || 4000;
 
 const server = new GraphQLServer({
     schema,
-    context: ({ request }) => ({ request })
+    context: ({ request }) => ({ request, isAuthenticated })
 });
 
 server.express.use(logger("dev"));
