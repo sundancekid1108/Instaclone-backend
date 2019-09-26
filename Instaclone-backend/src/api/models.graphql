@@ -5,9 +5,12 @@ type User {
   fbId: String
   firstName: String
   lastName: String
+  fullName: String
+  itsMe: Boolean!
   bio: String
   following: [User!]!
   followers: [User!]!
+  amIFollowing: Boolean!
   posts: [Post!]!
   likes: [Like!]!
   comments: [Comment!]!
