@@ -8,6 +8,10 @@
 - [x] Search by location
 - [x] Follow User
 - [x] Unfollow User
+- [x] Edit my profile
+- [x] See user profile
+- [x] See MY profile
+- [x] See the full photo
 
 # JWT TOKEN사용법
 1. mutation{requestSecret(email: "sundancekid1108@gmail.com")}

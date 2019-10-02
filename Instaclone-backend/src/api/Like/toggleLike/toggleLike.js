@@ -2,11 +2,6 @@ import { isAuthenticated } from "../../../middlewares";
 import { prisma } from "../../../../generated/prisma-client";
 
 
-// {
-// 	"Authorization": "Bearer KEY"
-// }
-// playground에서  HTTP HEADER에 값 넣기
-
 export default {
     Mutation: {
         toggleLike: async(_, args, { request }) => {
