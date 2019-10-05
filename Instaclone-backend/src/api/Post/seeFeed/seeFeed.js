@@ -2,7 +2,7 @@ import { prisma } from "../../../../generated/prisma-client";
 
 export default {
     Query: {
-        seeReed: async(_, __ { request, isAuthenticated }) => {
+        seeFeed: async(_, __, { request, isAuthenticated }) => {
             isAuthenticated(request);
             const { user } = request;
             const following = await prisma.user({ id: user.id }).following();
