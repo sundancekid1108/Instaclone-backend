@@ -12,6 +12,9 @@
 - [x] See user profile
 - [x] See MY profile
 - [x] See the full photo
+- [x] Upload a photo
+- [x] Edit the photo (Delete)
+- [x] See the feed
 
 # JWT TOKEN사용법
 1. mutation{requestSecret(email: "sundancekid1108@gmail.com")}
