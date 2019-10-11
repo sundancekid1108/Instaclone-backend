@@ -15,6 +15,10 @@
 - [x] Upload a photo
 - [x] Edit the photo (Delete)
 - [x] See the feed
+- [x] Send private Message
+- [x] See rooms
+- [x] See room
+- [x] Receive Message (Realtime)
 
 # JWT TOKEN사용법
 1. mutation{requestSecret(email: "sundancekid1108@gmail.com")}
@@ -28,4 +32,5 @@
 {
  	"Authorization": "Bearer KEY"
  }
- playground에서  HTTP HEADER에 값 넣기
+ playground에서  HTT부
+ 3.30부터 진행
