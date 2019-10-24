@@ -33,4 +33,4 @@
  	"Authorization": "Bearer KEY"
  }
  playground에서  HTT부
- 3.30부터 진행
+ 18.1부터체크
